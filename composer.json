@@ -1,0 +1,20 @@
+{
+    "name": "kepsondiaz/httpjsonbridge",
+    "version": "1.0.0",
+    "description": "An elegant json response for your laravel api",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kepsondiaz\\HttpJsonBridge\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kepsondiaz",
+            "email": "kherabadiaby328@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^9.4"
+    }
+}
