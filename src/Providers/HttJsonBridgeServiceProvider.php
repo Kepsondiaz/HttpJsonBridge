@@ -1,8 +1,6 @@
 <?php
 
-namespace Kepsondiaz\HttJsonBridge\src\providers;
-
-use Illuminate\Support\ServiceProvider;
+namespace Kepsondiaz\HttpJsonBridge\Providers;
 
 class HttJsonBridgeServiceProvider
 {
