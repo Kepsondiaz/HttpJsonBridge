@@ -1,6 +1,6 @@
 # Laravel HttpJsonBridge 🌉
 
-## An Elegant Json Response for your Laravel's Api 
+**A simple way to define your Json Response for your Laravel's Api .**
 
 ## installation
 
