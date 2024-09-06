@@ -5,5 +5,5 @@
 ## installation
 
 ```php
-    composer require kepsondiaz/httpjsonbridge
+composer require kepsondiaz/httpjsonbridge
 ```
