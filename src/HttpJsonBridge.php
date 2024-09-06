@@ -60,7 +60,7 @@ class HttpJsonBridge
     }
 
     /**
-     * Success Response
+     * Response with status code 200
      */
     public function successApiResponse(array|ResourceCollection $data, int $statusCode = Response::HTTP_OK, string $message = '', ?array $meta = null): JsonResponse
     {
