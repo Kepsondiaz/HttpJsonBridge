@@ -16,9 +16,7 @@ composer require kepsondiaz/httpjsonbridge
 /**
  * Response with status code 400.
  */
-return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->badRequestApiResponse([
-                'message' => 'your custom message for response'
-            ]);
+return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->badRequestApiResponse($message);
 ```
 
 **send a Response when response is OK.**
@@ -26,9 +24,7 @@ return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->badRequestApiResponse([
 /**
  * Response with status code 200.
  */
-return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->okApiResponse([
-                // do something
-            ]);
+return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->okApiResponse($data, $message);
 ```
 
 **send a Response when response when resource is not found**
@@ -36,9 +32,7 @@ return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->okApiResponse([
 /**
  * Response with status code 404.
  */
-return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->notFoundApiResponse([
-                // do something
-            ]);
+return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->notFoundApiResponse();
 ```
 
 **send a Response when response when user is unauthorised**
@@ -46,7 +40,5 @@ return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->notFoundApiResponse([
 /**
  * Response with status code 401.
  */
-return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->unauthorizedApiResponse([
-                // do something
-            ]);
+return (new \Kepsondiaz\HttpJsonBridge\HttpJsonBridge)->unauthorizedApiResponse();
 ```
